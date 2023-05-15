@@ -270,7 +270,7 @@ double History::compute_cgl( unsigned int year) {
     temp = temp->get_next();
   }
   double cgl {0.0};
-  while(temp != nullptr && year == temp->get_year()){
+  while((temp != nullptr) && (year == temp->get_year())){
     cgl += temp->get_cgl();
     temp = temp->get_next();
   }
