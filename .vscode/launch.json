@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/Administrator/Desktop/ece150 - Intro to Programming/project4_starter",
-      "program": "/Users/Administrator/Desktop/ece150 - Intro to Programming/project4_starter/build/Debug/outDebug"
+      "cwd": "/Users/Administrator/Desktop/Past Coding Projects/project4_starter",
+      "program": "/Users/Administrator/Desktop/Past Coding Projects/project4_starter/build/Debug/outDebug"
     }
   ]
 }
