@@ -208,7 +208,7 @@ while(p_head != nullptr){
       sort = original;
       continue;
     }
-    // head
+    // head pointer
     if (*original < *sort){
       original->set_next(sort);
       sort = original;
@@ -222,11 +222,11 @@ while(p_head != nullptr){
         }
 
         if (test_tail == nullptr){
-          // tail
+          // tail pointer
           test_head->set_next(original);
           continue;
         }else{
-          // middle
+          // middle pointer
           test_head->set_next(original);
           original->set_next(test_tail);
         }
